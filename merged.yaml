@@ -1,0 +1,7353 @@
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇯🇵 JP 001 | ⬇️ 7MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: Cv7khsXDblOJONTX99gBPIlG7ph7nMMrQBiay8kFDXE
+    short-id: '42'
+  server: tokyo.high-speed-test-56424.me
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 28455c79-1165-46a2-a1a9-ead96ad9c5cb
+- cipher: chacha20-ietf-poly1305
+  name: ' t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 432KB/s'
+  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+  port: 32062
+  server: hk14.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ' t.me/PFSub | 🇭🇰 HK 003 | ⬇️ 383KB/s'
+  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+  port: 32062
+  server: hk14.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ' t.me/PFSub | 🇭🇰 HK 004 | ⬇️ 415KB/s'
+  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+  port: 32062
+  server: hk14.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ' t.me/PFSub | 🇭🇰 HK 005 | ⬇️ 538KB/s'
+  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+  port: 32062
+  server: hk14.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 006 | ⬇️ 677KB/s'
+  network: ws
+  port: 18790
+  server: 222.104.159.112
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 007 | ⬇️ 35KB/s'
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 008 | ⬇️ 16MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: cf.008500.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 009 | ⬇️ 21KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 010 | ⬇️ 15KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.39
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 011 | ⬇️ 209KB/s'
+  network: ws
+  port: 2053
+  server: nrt.xxxxxxxx.nyc.mn
+  servername: n4slq25g4kg.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n4slq25g4kg.chinam.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 012 | ⬇️ 34KB/s'
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 013 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.165
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 13KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 015 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.165
+  servername: r.icy.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 016 | ⬇️ 18KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 017 | ⬇️ 11KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 018 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 019 | ⬇️ 13MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 020 | ⬇️ 1MB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 021 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 21KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇱🇻 LV 023 | ⬇️ 58KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 024 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 025 | ⬇️ 12KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 026 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 027 | ⬇️ 387KB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 028 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 172.64.156.0
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 029 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 030 | ⬇️ 10MB/s'
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: mfa.gov.ua
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 031 | ⬇️ 2MB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 032 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 033 | ⬇️ 12MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 034 | ⬇️ 5MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 035 | ⬇️ 335KB/s'
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 036 | ⬇️ 7MB/s'
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 037 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 038 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 039 | ⬇️ 6MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 040 | ⬇️ 1MB/s'
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 041 | ⬇️ 6MB/s'
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: mfa.gov.ua
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 042 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 043 | ⬇️ 8MB/s'
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 044 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 045 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 046 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: www.sofi.com
+  servername: n4slq25g4kg.chinam.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n4slq25g4kg.chinam.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 047 | ⬇️ 5MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: mfa.gov.ua
+  type: ss
+  udp: true
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 048 | ⬇️ 7MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 049 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 050 | ⬇️ 5MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 051 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 052 | ⬇️ 9MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 053 | ⬇️ 10MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 054 | ⬇️ 3MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 055 | ⬇️ 13MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 056 | ⬇️ 5MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 057 | ⬇️ 11KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 058 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 059 | ⬇️ 7MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: store.ubi.com
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 060 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 061 | ⬇️ 6MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 062 | ⬇️ 4MB/s'
+  network: ws
+  port: 443
+  server: unpkg.com
+  servername: n4slq25g4kg.chinam.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n4slq25g4kg.chinam.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 063 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 064 | ⬇️ 10MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: store.ubi.com
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 065 | ⬇️ 584KB/s'
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 066 | ⬇️ 5MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 067 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 14KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 069 | ⬇️ 11MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: store.ubi.com
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 070 | ⬇️ 6MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 071 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: www.investec.com
+  servername: n4slq25g4kg.chinam.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: n4slq25g4kg.chinam.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 072 | ⬇️ 12KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 073 | ⬇️ 11KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 074 | ⬇️ 6MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 075 | ⬇️ 9MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: store.ubi.com
+  tfo: false
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 076 | ⬇️ 1MB/s'
+  network: ws
+  port: 18790
+  server: 222.104.159.112
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 077 | ⬇️ 13KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 078 | ⬇️ 8MB/s'
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: store.ubi.com
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 079 | ⬇️ 15KB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 080 | ⬇️ 2MB/s'
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 081 | ⬇️ 69KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇨🇭 CH 082 | ⬇️ 5MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  server: ch.fasti.win
+  servername: ch.fasti.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 18KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 084 | ⬇️ 14KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: none
+  name: ' t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 1MB/s'
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+    tls: true
+  port: 443
+  server: 94.159.98.140
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: ' t.me/PFSub | 🇸🇬 SG 086 | ⬇️ 4MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.162
+  servername: snippet.danfeng.casacam.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: ' t.me/PFSub | 🇸🇬 SG 087 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.162
+  servername: snippet.danfeng.casacam.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - soft98.ir
+    path:
+    - /
+  name: ' t.me/PFSub | 🇩🇪 DE 088 | ⬇️ 10KB/s'
+  network: http
+  port: 4040
+  server: de2.sanzone.ir
+  skip-cert-verify: false
+  type: vless
+  uuid: b738db04-c73c-4551-b6f2-9041e93914d4
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 089 | ⬇️ 509KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 090 | ⬇️ 4MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 091 | ⬇️ 636KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 092 | ⬇️ 784KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 093 | ⬇️ 14KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.39
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇪 SE 094 | ⬇️ 91KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 095 | ⬇️ 613KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 096 | ⬇️ 5MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 097 | ⬇️ 6MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 098 | ⬇️ 5MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 099 | ⬇️ 499KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 100 | ⬇️ 772KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 101 | ⬇️ 466KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 102 | ⬇️ 5MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 5MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 104 | ⬇️ 712KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 4MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 106 | ⬇️ 602KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇨🇦 CA 107 | ⬇️ 9MB/s'
+  network: ws
+  port: 8443
+  server: 172.64.155.209
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 108 | ⬇️ 697KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 109 | ⬇️ 682KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 110 | ⬇️ 840KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 111 | ⬇️ 418KB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.244
+  servername: snippet.chinat.eu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinat.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 545KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 805KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 966KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 115 | ⬇️ 959KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 116 | ⬇️ 647KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 117 | ⬇️ 797KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 410KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 119 | ⬇️ 7MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 793KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 121 | ⬇️ 894KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 122 | ⬇️ 637KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 123 | ⬇️ 826KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 726KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 831KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 777KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 790KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 128 | ⬇️ 1013KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇳🇱 NL 129 | ⬇️ 320KB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 29KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 131 | ⬇️ 1MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 22KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 133 | ⬇️ 19KB/s'
+  network: ws
+  port: 443
+  server: 193.43.104.249
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 134 | ⬇️ 2MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: ' t.me/PFSub | 🇨🇭 CH 135 | ⬇️ 11MB/s'
+  network: http
+  port: 22
+  server: 172.65.111.43
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: monacoVPN
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: ' t.me/PFSub | 🇩🇪 DE 136 | ⬇️ 1MB/s'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: koma-yt.pages.dev
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 137 | ⬇️ 13KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 138 | ⬇️ 9MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 139 | ⬇️ 26KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇺🇸 US 140 | ⬇️ 16MB/s'
+  network: tcp
+  port: 44439
+  reality-opts:
+    public-key: lRUqKrHoHDHOV4kd8bhZ3BID8Nc-wtoTIUTI7COFtTA
+    short-id: 7af883
+  server: 107.172.67.59
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0f780c56-a708-44d9-a1a1-7c210b65e44f
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 141 | ⬇️ 34KB/s'
+  network: ws
+  port: 2083
+  server: 125.227.233.197
+  servername: snippet.danfeng.casacam.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 142 | ⬇️ 1MB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 143 | ⬇️ 226KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 144 | ⬇️ 356KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 145 | ⬇️ 13KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 29KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 156KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: none
+  name: ' t.me/PFSub | 🇭🇰 HK 148 | ⬇️ 33KB/s'
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+    tls: true
+  port: 8001
+  server: 47.242.145.136
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  disable-sni: 'true'
+  fp: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 149 | ⬇️ 7MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 150 | ⬇️ 42KB/s'
+  network: ws
+  port: 443
+  server: 221.139.87.28
+  servername: snippet.danfeng.gv.uy
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gv.uy
+    path: /danfeng
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 151 | ⬇️ 6MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 152 | ⬇️ 313KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 153 | ⬇️ 122KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 154 | ⬇️ 26KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 221KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: auto
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 156 | ⬇️ 427KB/s'
+  network: ws
+  port: 2052
+  server: 107.174.155.79
+  tls: false
+  type: vless
+  uuid: c6690e9f-95e2-42ff-dae2-39616aedf451
+  ws-opts:
+    path: /video
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 157 | ⬇️ 15MB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 158 | ⬇️ 169KB/s'
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 159 | ⬇️ 5MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 160 | ⬇️ 45KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 161 | ⬇️ 1MB/s'
+  network: ws
+  password: trojan
+  port: 10003
+  server: 118.34.36.61
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 162 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 163 | ⬇️ 147KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 164 | ⬇️ 722KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 165 | ⬇️ 1MB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 166 | ⬇️ 369KB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: ' t.me/PFSub | 🇺🇸 US 167 | ⬇️ 4MB/s'
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 168 | ⬇️ 9MB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: ' t.me/PFSub | 🇰🇷 KR 169 | ⬇️ 664KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: ' t.me/PFSub | 🇰🇷 KR 170 | ⬇️ 50KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 171 | ⬇️ 8MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇰🇷 KR 172 | ⬇️ 6MB/s'
+  network: ws
+  port: 19228
+  server: 49.246.80.209
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 173 | ⬇️ 14KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 26KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+  udp: true
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 175 | ⬇️ 5MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: sub.danfeng.eu.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 176 | ⬇️ 2MB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇺🇸 US 177 | ⬇️ 4MB/s'
+  network: tcp
+  port: 23335
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  server: 104.167.197.59
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 178 | ⬇️ 114KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 179 | ⬇️ 80KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 180 | ⬇️ 34KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 181 | ⬇️ 28KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - soft98.ir
+    path:
+    - /
+  name: ' t.me/PFSub | 🇬🇧 GB 182 | ⬇️ 18KB/s'
+  network: http
+  port: 4040
+  server: uk2.sanzone.ir
+  skip-cert-verify: false
+  type: vless
+  uuid: b738db04-c73c-4551-b6f2-9041e93914d4
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 183 | ⬇️ 18KB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 184 | ⬇️ 24KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 185 | ⬇️ 20MB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 186 | ⬇️ 13MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 187 | ⬇️ 23KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 188 | ⬇️ 1MB/s'
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 189 | ⬇️ 84KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: ' t.me/PFSub | 🇰🇷 KR 190 | ⬇️ 34KB/s'
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 191 | ⬇️ 26KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: ' t.me/PFSub | 🇰🇷 KR 192 | ⬇️ 1MB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 193 | ⬇️ 5MB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇯🇵 JP 194 | ⬇️ 6MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: Cv7khsXDblOJONTX99gBPIlG7ph7nMMrQBiay8kFDXE
+    short-id: '42'
+  server: tokyo.high-speed-test-56424.me
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 28455c79-1165-46a2-a1a9-ead96ad9c5cb
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇯🇵 JP 195 | ⬇️ 4MB/s'
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: Cv7khsXDblOJONTX99gBPIlG7ph7nMMrQBiay8kFDXE
+    short-id: '42'
+  server: tokyo.high-speed-test-56424.me
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 28455c79-1165-46a2-a1a9-ead96ad9c5cb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇰🇷 KR 196 | ⬇️ 13MB/s'
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇰🇷 KR 197 | ⬇️ 18MB/s'
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: ' t.me/PFSub | 🇰🇷 KR 198 | ⬇️ 13MB/s'
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+    short-id: ''
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+  xudp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 199 | ⬇️ 5MB/s'
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: ' t.me/PFSub | 🇰🇷 KR 200 | ⬇️ 8MB/s'
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+    short-id: ''
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇬🇧 GB 201 | ⬇️ 146KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 202 | ⬇️ 6MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.008500.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇩🇪 DE 203 | ⬇️ 35KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇬🇧 GB 204 | ⬇️ 58KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 205 | ⬇️ 12MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.008500.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 206 | ⬇️ 419KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 207 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇮🇳 IN 208 | ⬇️ 75KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 209 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 162.159.7.2
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  name: ' t.me/PFSub | 🇻🇳 VN 210 | ⬇️ 163KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 211 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 162.159.7.2
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 212 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 213 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 214 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 215 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 216 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 162.159.38.78
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 217 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.165
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 218 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 219 | ⬇️ 240KB/s'
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 220 | ⬇️ 121KB/s'
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 221 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 222 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 223 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 224 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 225 | ⬇️ 2MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 226 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 227 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 162.159.48.142
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 228 | ⬇️ 13MB/s'
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 229 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 230 | ⬇️ 8MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 231 | ⬇️ 13MB/s'
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 232 | ⬇️ 5MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 233 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 234 | ⬇️ 12MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 235 | ⬇️ 13MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 236 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 237 | ⬇️ 6MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 238 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 239 | ⬇️ 13MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 240 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 241 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 242 | ⬇️ 12MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 243 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: ' t.me/PFSub | 🇰🇷 KR 244 | ⬇️ 157KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 245 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 246 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 247 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 248 | ⬇️ 2MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 249 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 250 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 251 | ⬇️ 9MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.zhetengsha.eu.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 252 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 104.17.28.89
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 253 | ⬇️ 14MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: mfa.gov.ua
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 254 | ⬇️ 12MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 255 | ⬇️ 14MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.877774.xyz
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 256 | ⬇️ 5MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 257 | ⬇️ 11MB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: ' t.me/PFSub | 🇰🇷 KR 258 | ⬇️ 48KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 259 | ⬇️ 44KB/s'
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /Telegram🇨🇳+@WangCai2
+  xudp: true
+- alpn:
+  - h2
+  name: ' t.me/PFSub | 🇺🇸 US 260 | ⬇️ 8MB/s'
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- delay: 2792
+  name: ' t.me/PFSub | 🇰🇷 KR 261 | ⬇️ 48KB/s'
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: ' t.me/PFSub | 🇻🇳 VN 262 | ⬇️ 610KB/s'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 263 | ⬇️ 12KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 264 | ⬇️ 7MB/s'
+  network: ws
+  port: 22222
+  server: 118.40.112.188
+  servername: snippet.danfeng.casacam.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇭🇰 HK 265 | ⬇️ 11KB/s'
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 266 | ⬇️ 12MB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 267 | ⬇️ 350KB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 268 | ⬇️ 95KB/s'
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: ' t.me/PFSub | 🇰🇷 KR 269 | ⬇️ 110KB/s'
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: ' t.me/PFSub | 🇰🇷 KR 270 | ⬇️ 22KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: ' t.me/PFSub | 🇰🇷 KR 271 | ⬇️ 161KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇭🇰 HK 272 | ⬇️ 30KB/s'
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇳🇱 NL 273 | ⬇️ 16KB/s'
+  network: tcp
+  port: 8443
+  reality-opts:
+    _spider-x: /
+    public-key: 7XfDHNvz4yET_gS8UcQNJfpRiRW64sBEVSH8imcVl2I
+    short-id: 9eb00fa66d14fed3
+  server: 178.130.54.189
+  servername: video.tilda.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6a79b60d-e68d-4a49-9037-27eb45a8bf9c
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 274 | ⬇️ 18KB/s'
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 275 | ⬇️ 693KB/s'
+  network: ws
+  password: trojan
+  port: 10003
+  server: 118.34.36.61
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇰🇷 KR 276 | ⬇️ 5MB/s'
+  network: ws
+  port: 19228
+  server: 49.246.80.209
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 277 | ⬇️ 2MB/s'
+  network: ws
+  port: 12281
+  server: 118.42.204.220
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 278 | ⬇️ 849KB/s'
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇰🇷 KR 279 | ⬇️ 8MB/s'
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 280 | ⬇️ 1MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: saas.sin.fan
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 281 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 282 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 283 | ⬇️ 6MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 284 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 285 | ⬇️ 125KB/s'
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 286 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 287 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 288 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇸🇬 SG 289 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 290 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 291 | ⬇️ 11MB/s'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 292 | ⬇️ 9MB/s'
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: ' t.me/PFSub | 🇺🇸 US 293 | ⬇️ 10MB/s'
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- cipher: none
+  name: ' t.me/PFSub | 🇯🇵 JP 294 | ⬇️ 10MB/s'
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: sub.danfeng.eu.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 295 | ⬇️ 6MB/s'
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 296 | ⬇️ 35KB/s'
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇺🇸 US 297 | ⬇️ 5MB/s'
+  network: tcp
+  port: 23335
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  server: 104.167.197.59
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇸🇬 SG 298 | ⬇️ 3MB/s'
+  network: ws
+  port: 1234
+  server: 223.72.61.78
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.gleeze.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 299 | ⬇️ 8MB/s'
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 300 | ⬇️ 7MB/s'
+  network: ws
+  port: 443
+  server: 172.64.156.0
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: ' t.me/PFSub | 🇰🇷 KR 301 | ⬇️ 360KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- name: ' t.me/PFSub | 🇰🇷 KR 302 | ⬇️ 755KB/s'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  encryption: none
+  name: ' t.me/PFSub | 🇺🇸 US 303 | ⬇️ 1MB/s'
+  network: ws
+  port: 30020
+  server: 121.139.183.69
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ' t.me/PFSub | 🇺🇸 US 304 | ⬇️ 1MB/s'
+  network: tcp
+  port: 21876
+  reality-opts:
+    public-key: 4SQmJ_vJw_UhDZ-sHlex6aJlYO0w7LndThtCaUDPYiI
+    short-id: 204673043ea9
+  server: 9kg.cumotech.com
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7db4a03c-7616-42f1-a1e7-80ec822e1ed0
+- name: '[VMess] 亚太地区 V2CROSS.COM'
+  server: 103.181.164.237
+  port: 34114
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇨🇦 _CA_加拿大'
+  server: 108.181.10.17
+  port: 80
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: teams.microsoft.com
+  udp: true
+- name: '[SS] 🇨🇭 _CH_瑞士'
+  server: 84.17.53.163
+  port: 80
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+- name: '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  server: 107.167.182.230
+  port: 80
+  type: vmess
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tg@hkaa0
+    headers:
+      Host: br.gy.youxuan-1.66688888.xyz
+  udp: true
+- name: '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  server: v30.hdacd.com
+  port: 30830
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇨🇳 中国 V2CROSS.COM 2'
+  server: v12.hdacd.com
+  port: 30812
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  server: flkf2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: flkf2.shabijichang.com
+  udp: true
+- name: '[SS] 🇫🇷 _FR_法国'
+  server: 51.158.54.209
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+- name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
+  server: mrb2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mrb2.shabijichang.com
+  udp: true
+- name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  server: ld2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ld2.shabijichang.com
+  udp: true
+- name: '[VMess] 🇬🇧 英国 V2CROSS.COM'
+  server: 82.198.246.97
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  server: 104.17.18.26
+  port: 80
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a.109420.xyz
+  udp: true
+- name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  server: 104.26.8.44
+  port: 80
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a.109420.xyz
+  udp: true
+- name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
+  server: mm2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mm2.shabijichang.com
+  udp: true
+- name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  server: mm3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mm3.shabijichang.com
+  udp: true
+- name: '[Trojan] 🇮🇸 冰岛 V2CROSS.COM'
+  server: 37.235.49.209
+  port: 28099
+  type: trojan
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  sni: celestialcorset.crystalhamster.click
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  server: 45.199.138.191
+  port: 30000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251522438
+    headers:
+      Host: www.42077230.xyz
+  udp: true
+- name: '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  server: jd3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jd3.shabijichang.com
+  udp: true
+- name: '[VMess] 🇺🇸 _US_美国_1'
+  server: 206.168.190.219
+  port: 2082
+  type: vmess
+  uuid: e31ca750-71f7-11ee-b920-1239d0255272
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmws
+  udp: true
+- name: '[VMess] 🇺🇸 _US_美国_2'
+  server: wnd2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wnd2.shabijichang.com
+  udp: true
+- name: '[VMess] 🇺🇸 _US_美国_3'
+  server: 45.199.138.186
+  port: 30000
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696682720138
+    headers:
+      Host: www.19229362.xyz
+  udp: true
+- name: '[VMess] 🇺🇸 _US_美国_4'
+  server: wnd3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wnd3.shabijichang.com
+  udp: true
+- name: '[VMess] 🇺🇸 _US_美国_5'
+  server: 104.21.75.246
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sbl2.shabijichang.com
+  udp: true
+- name: '[SS] 🇺🇸 美国 DXC Technology'
+  server: 20.90.104.203
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: '[SS] 🇺🇸 美国 Microsoft数据中心'
+  server: admin.c1.webramz.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: https://t.me/xyfqzy ⚡_1
+  port: 443
+  server: 198.41.206.102
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: rayan-10.parastoo.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /@Rayan_Config
+    headers:
+      host: rayan-10.parastoo.dpdns.org
+  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+  client-fingerprint: chrome
+- name: https://t.me/xyfqzy ⚡_2
+  port: 9950
+  server: 43.134.167.135
+  type: trojan
+  network: ws
+  udp: true
+  sni: epgz.aimercc.filegear-sg.me
+  password: Aimer
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+  alpn:
+  - h3
+  client-fingerprint: randomized
+- name: https://t.me/xyfqzy ⚡_3
+  port: 50001
+  server: 221.142.117.59
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  client-fingerprint: chrome
+- name: https://t.me/xyfqzy ⚡_4
+  port: 12196
+  server: 202.150.185.128
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  client-fingerprint: chrome
+- name: https://t.me/xyfqzy ⚡_5
+  port: 8880
+  server: 185.148.107.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_6
+  port: 8880
+  server: 188.42.145.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: https://t.me/xyfqzy ⚡_7
+  port: 8880
+  server: 194.152.44.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: https://t.me/xyfqzy ⚡_8
+  port: 8880
+  server: 91.193.58.37
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_9
+  port: 8880
+  server: 92.53.191.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_10
+  port: 8880
+  server: 91.193.58.98
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: tw.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_11
+  port: 443
+  server: 49.51.179.33
+  type: trojan
+  network: ws
+  udp: true
+  sni: epgz.aimercc.filegear-sg.me
+  password: Aimer
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+  alpn:
+  - h3
+  client-fingerprint: randomized
+- name: https://t.me/xyfqzy ⚡_12
+  port: 80
+  server: 141.193.213.0
+  type: vless
+  network: ws
+  udp: true
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/?ed
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_13
+  port: 8443
+  server: uuk1v.tok8888.com
+  type: vless
+  network: tcp
+  udp: true
+  servername: www.apple.com.cn
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 1jupCbzD9RB34YhWct4C6_I1bx_O5Ct7ZnT5dfCiV18
+  uuid: d1bcd5ee-7bdb-4de9-9aa7-48f54a97390d
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: https://t.me/xyfqzy ⚡_14
+  port: 8880
+  server: 104.129.164.3
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: 🇺🇸US_13 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 45.149.12.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇸🇬SG_3 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 156.238.18.94
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      host: sg.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_76 | ⬇️ 2.8MB/s
+  port: 8880
+  server: www.speedtest.net
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@V2ray_Alpha/?ed=2560
+    headers:
+      host: www.speedtest.net.zula.ir.cfp1.a2hdhjdxjbxjsjdjd.ddns-ip.nEt.
+  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
+- name: ❓Other_14 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 154.194.12.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_64 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 92.243.74.213
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇫🇮FI_9 | ⬇️ 1.6MB/s
+  port: 443
+  server: 108.165.152.82
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: GgGgr.PaGES.dEV
+  skip-cert-verify: true
+  ws-opts:
+    path: /gLHWGBXwDuMKHx2C?ed=2560
+    headers:
+      host: ggggr.pages.dev
+  alpn:
+  - h2,http/1.1
+  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
+  client-fingerprint: randomized
+- name: ❓Other_58 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 45.153.7.186
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇺🇸US_47 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 91.193.58.137
+  type: vless
+  network: ws
+  udp: true
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_63 | ⬇️ 1.9MB/s
+  port: 8880
+  server: 91.124.127.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_59 | ⬇️ 1.5MB/s
+  port: 8880
+  server: 80.93.202.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_11 | ⬇️ 2.9MB/s
+  port: 8880
+  server: 77.232.140.20
+  type: vless
+  network: ws
+  udp: true
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_29 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 160.153.137.251
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: ❓Other_28 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 185.135.9.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_37 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 190.93.244.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: ❓Other_44 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 195.13.54.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: 🇺🇸US_45 | ⬇️ 1.3MB/s
+  port: 8880
+  server: 199.181.197.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇺🇸US_50 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 94.247.142.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇭🇰HK_11 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 155.46.213.20
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_75 | ⬇️ 2.1MB/s
+  port: 8880
+  server: 91.193.58.60
+  type: vless
+  network: ws
+  udp: true
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_67 | ⬇️ 3.3MB/s
+  port: 443
+  server: vipren.biz.id
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: vipren.biz.id
+  skip-cert-verify: true
+  ws-opts:
+    path: /Neoxide-X/121.169.228.177-17050
+    headers:
+      host: vipren.biz.id
+  uuid: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  client-fingerprint: chrome
+- name: 🇰🇷KR_13 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 135.84.79.177
+  type: vless
+  network: ws
+  udp: true
+  servername: ip.langmanshanxi.top
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_12 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 103.245.228.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_17 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 154.198.173.186
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇨🇦CA_1 | ⬇️ 1.8MB/s
+  port: 2083
+  server: 172.67.69.129
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: e.exedu.ip-ddns.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@V2ray_Alpha/?ed=2048
+    headers:
+      host: e.exedu.ip-ddns.com
+  uuid: 8f320d6a-9953-4065-b61c-d62f89a6767f
+  client-fingerprint: chrome
+- name: 🇯🇵JP_3 | ⬇️ 1.3MB/s
+  port: 8880
+  server: 213.182.199.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_26 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 168.100.6.168
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_34 | ⬇️ 2.3MB/s
+  port: 8880
+  server: 185.59.218.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_36 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 188.164.248.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_42 | ⬇️ 2.5MB/s
+  port: 8880
+  server: 193.9.49.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_49 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 199.34.229.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇩🇪DE_12 | ⬇️ 1.2MB/s
+  port: 16704
+  server: a.shenasnamegan.shop
+  type: vless
+  network: tcp
+  tls: true
+  udp: true
+  servername: a.shenasnamegan.shop
+  skip-cert-verify: true
+  alpn:
+  - h3,h2,http/1.1
+  uuid: 183babc7-da94-4b90-8194-33f312bf5331
+  client-fingerprint: chrome
+- name: 🇰🇷KR_6 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 185.148.104.177
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇰🇷KR_7 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 185.238.228.186
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_79 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 86.38.214.168
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_44 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 198.62.62.3
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: ❓Other_53 | ⬇️ 2.0MB/s
+  port: 8880
+  server: 216.205.52.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_65 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 94.140.0.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇭🇰HK_10 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 185.221.160.29
+  type: vless
+  network: ws
+  udp: true
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_82 | ⬇️ 1.0MB/s
+  port: 8443
+  server: 45.80.111.221
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: gGHDFa.pAgeS.Dev
+  skip-cert-verify: true
+  ws-opts:
+    path: /Tel-@V2ray_Alpha/?ed=2560
+    headers:
+      host: gghdfa.pages.dev
+  uuid: a396b860-11b7-4af3-9950-146caf79735e
+  client-fingerprint: randomized
+- name: 🇺🇸US_61 | ⬇️ 2.2MB/s
+  port: 8880
+  server: 91.193.58.248
+  type: vless
+  network: ws
+  udp: true
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3?ed=2048
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_3 | ⬇️ 3.6MB/s
+  port: 443
+  server: 198.62.62.67
+  type: trojan
+  network: ws
+  udp: true
+  sni: torjan.xn--xhq44j.eu.org
+  password: tg-fq521free
+  skip-cert-verify: false
+  ws-opts:
+    path: /
+  client-fingerprint: chrome
+- name: ❓Other_9 | ⬇️ 2.3MB/s
+  port: 2083
+  server: 172.67.151.188
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  client-fingerprint: chrome
+- name: 🇰🇷KR_5 | ⬇️ 1.9MB/s
+  port: 2087
+  server: 172.66.47.31
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: nEwMTPROxI.PAGes.DEv
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: nEwMTPROxI.PAGes.DEv
+  uuid: 2cec2733-389a-46a7-9053-218594a6336d
+  client-fingerprint: chrome
+- name: 🇺🇸US_43 | ⬇️ 2.3MB/s
+  port: 8880
+  server: 192.200.160.254
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: yg.bantony199.top
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+- name: ❓Other_57 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 27.50.49.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇩🇪DE_6 | ⬇️ 1.1MB/s
+  port: 443
+  server: 104.21.30.90
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: faruzan.changli.ddns-ip.net
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=navia.shorekeeper.ir
+    headers:
+      host: faruzan.changli.ddns-ip.net
+  alpn:
+  - http/1.1
+  uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
+  client-fingerprint: randomized
+- name: ❓Other_15 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 154.198.173.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇸🇬SG_10 | ⬇️ 1.8MB/s
+  port: 8880
+  server: 156.238.18.93
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      host: sg.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_80 | ⬇️ 2.3MB/s
+  port: 8880
+  server: 62.72.166.3
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: ❓Other_39 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 190.93.247.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_54 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 216.24.57.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇭🇰HK_5 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 159.112.235.29
+  type: vless
+  network: ws
+  udp: true
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇰🇷KR_9 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 194.53.53.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇺🇸US_60 | ⬇️ 1.8MB/s
+  port: 443
+  server: 104.18.26.90
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: barayeiranmahsang.ghormehsabzi.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /@warp_city
+    headers:
+      host: barayeiranmahsang.ghormehsabzi.dpdns.org
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  client-fingerprint: chrome
+- name: 🇺🇸US_74 | ⬇️ 3.0MB/s
+  port: 8880
+  server: 91.193.58.127
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇮🇪IE_1 | ⬇️ 1.3MB/s
+  port: 443
+  server: 104.21.54.114
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: faruzan.changli.ddns-ip.net
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=navia.shorekeeper.ir
+    headers:
+      host: faruzan.changli.ddns-ip.net
+  alpn:
+  - http/1.1
+  uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
+  client-fingerprint: randomized
+- name: ❓Other_52 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 216.24.57.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_8 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 91.193.58.14
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/?ed=2048
+    headers:
+      host: tw.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇫🇷FR_1 | ⬇️ 1.2MB/s
+  port: 56817
+  server: amir021.amir021.tech
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: amir021.amir021.tech
+  skip-cert-verify: true
+  ws-opts:
+    path: /@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-@vpn_Zvpn-?ed=2560
+  alpn:
+  - h3,h2,http/1.1
+  uuid: 7b601ebe-d8ac-470a-b745-1bca7d89ee14
+  client-fingerprint: chrome
+- name: 🇩🇪DE_13 | ⬇️ 1.8MB/s
+  port: 443
+  server: aboringdad.dpdns.org
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: aboringdad.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: aboringdad.dpdns.org
+  uuid: 601e7e24-0697-4fed-9715-f3336ad5094c
+  client-fingerprint: chrome
+- name: 🇩🇪DE_4 | ⬇️ 2.2MB/s
+  port: 443
+  server: 104.24.171.107
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: vNgSUppLy.IP-dDnS.COm
+  skip-cert-verify: true
+  ws-opts:
+    path: /eJ5JZ3A1HxfU0bPO?ed=2560/?JOKERRVPN_BIA_CHANEL@JOKERRVPN
+    headers:
+      host: vngsupply.ip-ddns.com
+  alpn:
+  - http/1.1
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  client-fingerprint: randomized
+- name: 🇭🇰HK_2 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 141.11.203.29
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇵🇭PH_3 | ⬇️ 1.5MB/s
+  port: 443
+  server: mangaread.org
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: ConFIgmr.PaGeS.dEV
+  skip-cert-verify: true
+  ws-opts:
+    path: /--JoiN--@FREEV2RNG--Bia--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG?ed=2560
+    headers:
+      host: configmr.pages.dev
+  alpn:
+  - h2,http/1.1
+  uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
+  client-fingerprint: chrome
+- name: 🇫🇮FI_8 | ⬇️ 3.2MB/s
+  port: 443
+  server: 104.18.26.90
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /Join---@MTMVPN---Join---@MTMVPN---Join---@MTMVPN---Join---@MTMVPN?ed=2560
+    headers:
+      host: barayeiranmahsang.sabzipolobamahi.dpdns.org
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  client-fingerprint: chrome
+- name: 🇬🇧GB_3 | ⬇️ 2.3MB/s
+  port: 2096
+  server: 172.66.132.196
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: faruzan.changli.ddns-ip.net
+  skip-cert-verify: true
+  ws-opts:
+    path: /Tel-@V2ray_Alpha
+    headers:
+      host: faruzan.changli.ddns-ip.net
+  alpn:
+  - http/1.1
+  uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
+  client-fingerprint: chrome
+- name: 🇺🇸US_64 | ⬇️ 2.2MB/s
+  port: 8880
+  server: 91.193.58.245
+  type: vless
+  network: ws
+  udp: true
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_77 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 185.251.80.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇩🇪DE_1 | ⬇️ 1.4MB/s
+  port: 443
+  server: 91.149.239.64
+  type: trojan
+  network: ws
+  udp: true
+  sni: epgz.aimercc.filegear-sg.me
+  password: Aimer
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+  alpn:
+  - h3
+  client-fingerprint: randomized
+- name: ❓Other_24 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 167.68.5.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_22 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 160.79.104.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇰🇷KR_11 | ⬇️ 3.7MB/s
+  port: 443
+  server: nuclear.us.kg
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: nuclear.us.kg
+  skip-cert-verify: true
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      host: nuclear.us.kg
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  client-fingerprint: chrome
+- name: 🇺🇸US_34 | ⬇️ 1.3MB/s
+  port: 443
+  server: 172.67.160.192
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: nuclear.us.kg
+  skip-cert-verify: true
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      host: nuclear.us.kg
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  client-fingerprint: chrome
+- name: 🇩🇪DE_18 | ⬇️ 1.5MB/s
+  port: 24070
+  server: 91.107.136.146
+  type: vless
+  network: grpc
+  udp: true
+  servername: yahoo.com
+  skip-cert-verify: true
+  grpc-opts: {}
+  reality-opts:
+    public-key: Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk
+    short-id: '93'
+  uuid: c23c9151-c696-4e0a-8dc5-75edfcc4a271
+  client-fingerprint: chrome
+- name: 🇯🇵JP_1 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 103.116.7.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇸🇪SE_1 | ⬇️ 1.4MB/s
+  port: 443
+  server: 104.21.67.11
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: carlotta.shoorekeeper.cloudns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=zani.yaemiko.ggff.net
+    headers:
+      host: carlotta.shoorekeeper.cloudns.org
+  alpn:
+  - http/1.1
+  uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
+  client-fingerprint: random
+- name: ❓Other_71 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 5.10.215.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇸🇪SE_2 | ⬇️ 1.2MB/s
+  port: 443
+  server: 172.67.72.191
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: carlotta.shoorekeeper.cloudns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=zani.yaemiko.ggff.net
+    headers:
+      host: carlotta.shoorekeeper.cloudns.org
+  alpn:
+  - http/1.1
+  uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
+  client-fingerprint: randomized
+- name: 🇩🇪DE_17 | ⬇️ 1.3MB/s
+  port: 443
+  server: 104.18.26.90
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: barayeiranmahsang.juveitaly.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: barayeiranmahsang.juveitaly.dpdns.org
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  client-fingerprint: chrome
+- name: ❓Other_41 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 193.233.132.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_36 | ⬇️ 1.1MB/s
+  port: 443
+  server: 172.67.218.254
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: f1.parsa.filegear-sg.me
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  client-fingerprint: chrome
+- name: 🇫🇮FI_6 | ⬇️ 1.4MB/s
+  port: 443
+  server: 188.114.97.11
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: XLZ767V2RAy.PAGES.dEv
+  skip-cert-verify: true
+  ws-opts:
+    path: /t3fgslbvys9sp8zt?ed=2560
+    headers:
+      host: XLZ767V2RAy.PAGES.dEv
+  uuid: b9b8cf4c-29a3-4288-9c6c-8811dc37beec
+  client-fingerprint: chrome
+- name: 🇺🇸US_81 | ⬇️ 1.3MB/s
+  port: 8443
+  server: 45.131.210.218
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: gGHDFa.pAgeS.Dev
+  skip-cert-verify: true
+  ws-opts:
+    path: /Tel-@V2ray_Alpha/?ed=2560
+    headers:
+      host: gghdfa.pages.dev
+  uuid: a396b860-11b7-4af3-9950-146caf79735e
+  client-fingerprint: randomized
+- name: 🇵🇭PH_2 | ⬇️ 2.8MB/s
+  port: 443
+  server: 37.153.171.107
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: ConFIgmr.PaGeS.dEV
+  skip-cert-verify: true
+  ws-opts:
+    path: /--JoiN--@FREEV2RNG--Bia--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG?ed=2560
+    headers:
+      host: configmr.pages.dev
+  alpn:
+  - h2,http/1.1
+  uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
+  client-fingerprint: chrome
+- name: 🇺🇸US_52 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 94.247.142.254
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: yg.bantony199.top
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+- name: 🇩🇪DE_5 | ⬇️ 1.4MB/s
+  port: 2087
+  server: 188.114.97.11
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: Xlz767V2Ray.PAGEs.DEv
+  skip-cert-verify: true
+  ws-opts:
+    path: /bethzrzkz5ljs32v?ed=2560
+    headers:
+      host: Xlz767V2Ray.PAGEs.DEv
+  uuid: b9b8cf4c-29a3-4288-9c6c-8811dc37beec
+  client-fingerprint: chrome
+- name: 🇺🇸US_46 | ⬇️ 1.7MB/s
+  port: 8880
+  server: 209.94.90.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇺🇸US_21 | ⬇️ 1.9MB/s
+  port: 443
+  server: 104.18.158.152
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: f1.parsa.filegear-sg.me
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  client-fingerprint: chrome
+- name: 🇺🇸US_32 | ⬇️ 1.5MB/s
+  port: 2321
+  server: 172.234.31.253
+  type: vless
+  network: tcp
+  udp: true
+  skip-cert-verify: true
+  uuid: 7028cb85-9611-4876-bb19-e15fa050b253
+- name: 🇸🇬SG_6 | ⬇️ 1.2MB/s
+  port: 8880
+  server: ::ffff:156.238.18.136
+  type: vless
+  network: ws
+  udp: true
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: sg.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_72 | ⬇️ 1.8MB/s
+  port: 8880
+  server: 91.193.58.196
+  type: vless
+  network: ws
+  udp: true
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_35 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 188.164.159.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: ❓Other_62 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 91.124.127.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: 🇸🇬SG_8 | ⬇️ 2.7MB/s
+  port: 443
+  server: zoomgov.vipren.biz.id
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: zoomgov.vipren.biz.id
+  skip-cert-verify: true
+  ws-opts:
+    path: /15.235.199.103=8443
+    headers:
+      host: zoomgov.vipren.biz.id
+  uuid: f9eae0f4-9b13-467d-ac46-a0f86ea21cf2
+  client-fingerprint: chrome
+- name: 🇺🇸US_41 | ⬇️ 1.2MB/s
+  port: 443
+  server: 188.114.99.93
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: jack.jack-cq.click
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: jack.jack-cq.click
+  uuid: 72982133-27fb-46fc-9061-61113e77e201
+  client-fingerprint: random
+- name: 🇫🇮FI_3 | ⬇️ 2.0MB/s
+  port: 80
+  server: dl1-fi-cdn.easy-upload.org
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: dl1-fi-cdn.easy-upload.org
+  uuid: ee2bb495-2632-445b-b1f8-3c476a50b78b
+- name: 🇺🇸US_51 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 94.247.142.3
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: 🇺🇸US_42 | ⬇️ 1.5MB/s
+  port: 8880
+  server: 192.0.63.3
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: ❓Other_46 | ⬇️ 2.0MB/s
+  port: 8880
+  server: 198.202.211.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: 🇸🇬SG_7 | ⬇️ 1.4MB/s
+  port: 443
+  server: aio.xtradata.dpdns.org
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: aio.xtradata.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /aioproxybot/129.150.49.58-18650
+    headers:
+      host: aio.xtradata.dpdns.org
+  uuid: f282b878-8711-45a1-8c69-5564172123c1
+  client-fingerprint: chrome
+- name: 🇨🇦CA_2 | ⬇️ 1.5MB/s
+  port: 42557
+  server: 40.233.115.223
+  type: vless
+  network: tcp
+  udp: true
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    short-id: f430927d
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: 🇺🇸US_55 | ⬇️ 2.3MB/s
+  port: 2053
+  server: loscdn.bm04.xyz
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: loscdn.bm04.xyz
+  skip-cert-verify: true
+  ws-opts:
+    path: /workspace/stream/
+    headers:
+      host: loscdn.bm04.xyz
+  alpn:
+  - h3,h2,http/1.1
+  uuid: 94cf288d-f764-4ce9-a547-a7228144f056
+  client-fingerprint: chrome
+- name: ❓Other_31 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 185.176.24.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: 🇺🇸US_5 | ⬇️ 3.0MB/s
+  port: 443
+  server: ggbnhju.859885.xyz
+  type: trojan
+  network: ws
+  udp: true
+  sni: gGbNHjU.859885.xYZ
+  password: f69b7304-9bea-4740-a555-797514012a53
+  skip-cert-verify: false
+  ws-opts:
+    path: /MxtuuhyCwC29auSeckWI9
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🇺🇸US_39 | ⬇️ 1.9MB/s
+  port: 8880
+  server: 184.174.80.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇺🇸US_3 | ⬇️ 1.8MB/s
+  port: 443
+  server: 172.67.145.200
+  type: trojan
+  network: ws
+  udp: true
+  sni: Rrr4.8906004.xYZ
+  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
+  skip-cert-verify: false
+  ws-opts:
+    path: /DZxb5QZyWgQPuXTwt
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: ❓Other_47 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 198.202.211.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_84 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 185.238.228.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: ❓Other_50 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 209.94.90.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_10 | ⬇️ 3.5MB/s
+  port: 443
+  server: aio.zipzap.biz.id
+  type: vmess
+  network: ws
+  tls: true
+  udp: true
+  version: '2'
+  servername: aio.zipzap.biz.id
+  skip-cert-verify: true
+  ws-opts:
+    path: /aioproxybot/146.190.192.43-80
+    headers:
+      host: aio.zipzap.biz.id
+  cipher: auto
+  uuid: f282b878-8711-45a1-8c69-5564172123c1
+  alterId: 0
+- name: 🇺🇸US_24 | ⬇️ 1.2MB/s
+  port: 443
+  server: 104.21.21.72
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: 4W.003330333.XYZ
+  skip-cert-verify: true
+  ws-opts:
+    path: /XKkmZUl83R8RsRHVp4fx59ry
+    headers:
+      host: 4w.003330333.xyz
+  alpn:
+  - http/1.1
+  uuid: 6e5925c0-f39e-4449-93e9-2e2e9772b17b
+  client-fingerprint: chrome
+- name: 🇨🇦CA_3 | ⬇️ 1.8MB/s
+  port: 45877
+  server: fahra-isbsus-iwbsha.haratipulan.ir
+  type: vless
+  network: tcp
+  udp: true
+  skip-cert-verify: true
+  uuid: 81ed7265-be10-498b-c96f-46789e81ac88
+- name: ❓Other_27 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 184.174.80.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: ❓Other_25 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 167.68.5.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇩🇪DE_10 | ⬇️ 1.2MB/s
+  port: 443
+  server: 172.67.200.156
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: rayan-07.leila.dpdns.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /@Rayan_Config
+    headers:
+      host: rayan-07.leila.dpdns.org
+  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+  client-fingerprint: chrome
+- name: 🇺🇸US_25 | ⬇️ 3.0MB/s
+  port: 443
+  server: 104.21.26.17
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: ttttttt67.459.pp.ua
+  skip-cert-verify: true
+  ws-opts:
+    path: /5UW2C42lpZ7Dj4VDwVOkZfoq
+    headers:
+      host: ttttttt67.459.pp.ua
+  uuid: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+  client-fingerprint: chrome
+- name: 🇳🇱NL_3 | ⬇️ 2.8MB/s
+  port: 8080
+  server: 104.21.43.168
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420/Telegram,@EXPRESSVPN_420?ed=80
+    headers:
+      host: Kk78.4qwertyuiopasdfghjklzxcvbnmmnbvccjzlkjhgfdsapoiuytre0107252.sub420-mohamad.OnlinE.
+  uuid: b3fb50dd-35ce-4c4a-9280-acaeb1677640
+- name: 🇩🇪DE_8 | ⬇️ 1.4MB/s
+  port: 1419
+  server: 165.227.244.151
+  type: vless
+  network: tcp
+  udp: true
+  servername: journalofbigdata.springeropen.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0L-XvEVE4KLbDk-evkkxEWK3y-Nkz0E181t0PD_o4h4
+    short-id: ae439107157c97
+  uuid: 57a5d042-6618-4042-a2de-1a2169c4ce9d
+  client-fingerprint: chrome
+- name: 🇺🇸US_78 | ⬇️ 1.9MB/s
+  port: 443
+  server: 104.21.26.17
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: tTTtTTT67.459.PP.uA
+  skip-cert-verify: true
+  ws-opts:
+    path: /5UW2C42lpZ7Dj4VDwVOkZfoq
+    headers:
+      host: ttttttt67.459.pp.ua
+  alpn:
+  - http/1.1
+  uuid: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+  client-fingerprint: chrome
+- name: 🇺🇸US_4 | ⬇️ 1.2MB/s
+  port: 443
+  server: 172.67.157.220
+  type: trojan
+  network: ws
+  udp: true
+  sni: 6666YHjU.777159.xYz
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  skip-cert-verify: false
+  ws-opts:
+    path: /dilyfCPEmLvYr5hYXD
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+- name: 🇳🇱NL_1 | ⬇️ 2.3MB/s
+  port: 443
+  server: 83.217.222.183
+  type: vless
+  network: tcp
+  tls: true
+  udp: true
+  servername: microsoft.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: gi8v7_r3NbWuPl9kjt8ZZLDavCMz1w0rVeNhcVnVxEM
+    short-id: 9d56b1e4
+  uuid: 38e45e75-cabb-4b98-8e2f-9d65843b7efa
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: https://t.me/xyfqzy ⚡_15
+  port: 80
+  server: 104.21.65.190
+  type: vmess
+  network: ws
+  tls: false
+  udp: true
+  version: '2'
+  servername: ''
+  skip-cert-verify: true
+  ws-opts:
+    path: /SHToRcqfiraYkzOdf
+    headers:
+      host: tttgggbnh.4444936.xyz
+  cipher: auto
+  uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
+  alterId: 0
+- name: 🇺🇸US_68 | ⬇️ 1.0MB/s
+  port: 443
+  server: 172.67.130.204
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: HHhhhHhhhhH.777198.xYz
+  skip-cert-verify: true
+  ws-opts:
+    path: /OjdW89Bpg4ykd4O
+    headers:
+      host: hhhhhhhhhhh.777198.xyz
+  alpn:
+  - http/1.1
+  uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  client-fingerprint: chrome
+- name: 🇺🇸US_33 | ⬇️ 2.1MB/s
+  port: 443
+  server: 172.67.157.220
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: XXCsDERT6.777159.XyZ
+  skip-cert-verify: true
+  ws-opts:
+    path: /O9jlBCbIm3xr1D40NK
+    headers:
+      host: xxcsdert6.777159.xyz
+  alpn:
+  - http/1.1
+  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  client-fingerprint: chrome
+- name: 🇭🇰HK_9 | ⬇️ 1.5MB/s
+  port: 8880
+  server: 46.254.93.29
+  type: vless
+  network: ws
+  udp: true
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_37 | ⬇️ 1.2MB/s
+  port: 443
+  server: 172.67.212.82
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: ddddddccccccccccccccvv.131.pp.ua
+  skip-cert-verify: true
+  ws-opts:
+    path: /eAbAcRHV1QuhyXWGxgFnoFPw1
+    headers:
+      host: ddddddccccccccccccccvv.131.pp.ua
+  alpn:
+  - http/1.1
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  client-fingerprint: chrome
+- name: 🇮🇱IL_1 | ⬇️ 2.8MB/s
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  type: vless
+  network: tcp
+  tls: true
+  udp: true
+  servername: i2pd.website
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: 🇺🇸US_73 | ⬇️ 2.1MB/s
+  port: 8880
+  server: 156.238.18.197
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: yd.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_8 | ⬇️ 1.3MB/s
+  port: 8880
+  server: 91.193.58.238
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_22 | ⬇️ 1.3MB/s
+  port: 443
+  server: 104.19.120.225
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      host: f1.parsa.filegear-sg.me
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  client-fingerprint: chrome
+- name: 🇺🇸US_65 | ⬇️ 1.2MB/s
+  port: 8443
+  server: csgo.com
+  type: trojan
+  network: ws
+  udp: true
+  sni: cdn-node-oss-99.paofu.de
+  password: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6
+  skip-cert-verify: false
+  ws-opts:
+    path: /profile/telegram@ssrsub
+  client-fingerprint: chrome
+- name: ❓Other_66 | ⬇️ 1.5MB/s
+  port: 8880
+  server: 94.140.0.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇨🇦CA_4 | ⬇️ 2.1MB/s
+  port: 80
+  server: 104.18.26.90
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /?ed=2560/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI
+    headers:
+      host: blaze-can-118.blazecanada.site
+  uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+- name: ❓Other_40 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 192.65.217.186
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: ❓Other_19 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 156.238.18.195
+  type: vless
+  network: ws
+  udp: true
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: yd.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇬🇧GB_2 | ⬇️ 1.2MB/s
+  port: 443
+  server: 160.153.0.132
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: escoffier.changli.ddns-ip.net
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=navia.shorekeeper.ir
+    headers:
+      host: escoffier.changli.ddns-ip.net
+  alpn:
+  - http/1.1
+  uuid: 1e610976-fef5-4ca4-a447-f3530e70603e
+  client-fingerprint: random
+- name: ❓Other_16 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 154.197.121.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇰🇷KR_8 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 188.164.158.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇸🇬SG_11 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 91.193.58.174
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_72 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 147.78.140.186
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇺🇸US_83 | ⬇️ 1.2MB/s
+  port: 443
+  server: 104.21.76.21
+  type: vless
+  network: grpc
+  tls: true
+  udp: true
+  servername: nnHHgTYRE.00890604.XYZ
+  skip-cert-verify: true
+  grpc-opts: {}
+  alpn:
+  - h2
+  uuid: b8992384-c118-43a7-97aa-8f8423f19169
+  client-fingerprint: chrome
+- name: 🇩🇪DE_14 | ⬇️ 2.1MB/s
+  port: 80
+  server: ftp6.tehran-park.com
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
+    headers:
+      host: 185.232.70.52.www.speedtest.net.www.debian.org.www.speedtest.net自己不去看啥事情基本没啥事事自己不去看啥事情基本没啥事事.teHran-PC.infO.
+  uuid: 2658fffa-e35a-43cd-9df8-5ad29576931b
+- name: 🇰🇿KZ_1 | ⬇️ 1.5MB/s
+  port: 19747
+  server: 77.73.232.61
+  type: vless
+  network: tcp
+  udp: true
+  servername: yahoo.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
+    short-id: '2001'
+  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
+  client-fingerprint: chrome
+- name: 🇸🇬SG_9 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 156.238.18.148
+  type: vless
+  network: ws
+  udp: true
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2048
+    headers:
+      host: sg.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_66 | ⬇️ 2.3MB/s
+  port: 443
+  server: 172.67.200.11
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: SsSSSSSsSSSD.890606.Xyz
+  skip-cert-verify: true
+  ws-opts:
+    path: /kSIHD28dr9nkaMBYIsgt
+    headers:
+      host: SsSSSSSsSSSD.890606.Xyz
+  alpn:
+  - http/1.1
+  uuid: 357b1bba-6400-4944-baff-1b933311ff28
+  client-fingerprint: chrome
+- name: 🇺🇸US_79 | ⬇️ 1.3MB/s
+  port: 443
+  server: 108.165.152.82
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@V2ray_Alpha=?ed=2560
+    headers:
+      host: f1.parsa.filegear-sg.me
+  alpn:
+  - h2,http/1.1
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  client-fingerprint: randomized
+- name: ❓Other_74 | ⬇️ 2.3MB/s
+  port: 8880
+  server: 156.238.18.157
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed=2560
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_30 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 185.162.231.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_76 | ⬇️ 1.1MB/s
+  port: 8880
+  server: 103.245.229.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: https://t.me/xyfqzy ⚡_16
+  port: 443
+  server: 104.21.96.1
+  type: trojan
+  network: grpc
+  udp: true
+  sni: XxXcdvfgTyy67.222569.XYz
+  password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  skip-cert-verify: false
+  grpc-opts:
+    grpc-service-name: x9F83IcyjcEyBX5Ttq58yozYn
+  alpn:
+  - h2
+  client-fingerprint: chrome
+- name: 🇭🇰HK_3 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 31.43.179.29
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇫🇮FI_4 | ⬇️ 1.7MB/s
+  port: 443
+  server: 172.66.44.241
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: GgGgr.PaGES.dEV
+  skip-cert-verify: true
+  ws-opts:
+    path: /g...
+    headers:
+      host: ggggr.pages.dev
+  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
+  client-fingerprint: chrome
+- name: ❓Other_70 | ⬇️ 2.4MB/s
+  port: 8880
+  server: 199.34.230.213
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_62 | ⬇️ 1.1MB/s
+  port: 443
+  server: 104.21.76.21
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: xCVbNNMklo.00890604.xyZ
+  skip-cert-verify: true
+  ws-opts:
+    path: /xZjr7v1DqrYyamxeTh7sLJtI1
+    headers:
+      host: xcvbnnmklo.00890604.xyz
+  uuid: a7c9c017-db10-4d15-b01b-0634db498b57
+  client-fingerprint: chrome
+- name: ❓Other_75 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 91.193.58.149
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: us.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_40 | ⬇️ 1.9MB/s
+  port: 8880
+  server: 185.159.247.3
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: bitget1.asdasd.click
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+- name: 🇰🇷KR_10 | ⬇️ 1.0MB/s
+  port: 8880
+  server: 194.36.55.148
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇨🇦CA_5 | ⬇️ 1.7MB/s
+  port: 443
+  server: 172.67.175.139
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: 999O0.859886.xyz
+  skip-cert-verify: true
+  ws-opts:
+    path: /e49RZLgIb0TdfgF5HdHEIupMZeK
+    headers:
+      host: 999o0.859886.xyz
+  alpn:
+  - http/1.1
+  uuid: 288124da-0d68-42f4-9f48-70dc4dcc55a6
+  client-fingerprint: chrome
+- name: 🇰🇷KR_4 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 154.211.8.177
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: ip.langmanshanxi.top
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+- name: 🇺🇸US_77 | ⬇️ 2.6MB/s
+  port: 8880
+  server: 45.80.111.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇺🇸US_17 | ⬇️ 1.6MB/s
+  port: 8880
+  server: 102.177.176.251
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: cf.d3z.net
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+- name: 🇵🇱PL_1 | ⬇️ 3.0MB/s
+  port: 443
+  server: 104.17.185.58
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: frieren.albedo.ddns-ip.net
+  skip-cert-verify: true
+  ws-opts:
+    path: /proxyip=ayaka.shorekeeper.ir
+    headers:
+      host: frieren.albedo.ddns-ip.net
+  alpn:
+  - http/1.1
+  uuid: c1601a96-febd-4baa-8fe3-17ca8f4121bd
+  client-fingerprint: randomized
+- name: 🇩🇪DE_19 | ⬇️ 1.0MB/s
+  port: 443
+  server: 104.16.245.252
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: VNGsUppLY.IP-ddnS.COm
+  skip-cert-verify: true
+  ws-opts:
+    path: /ycqlKbi40f2kVjZS?ed=2560
+    headers:
+      host: vngsupply.ip-ddns.com
+  alpn:
+  - http/1.1
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  client-fingerprint: randomized
+- name: https://t.me/xyfqzy ⚡_17
+  port: 2087
+  server: rak2ding.89060004.xyz
+  type: vmess
+  network: ws
+  tls: true
+  udp: true
+  version: '2'
+  servername: rak2d3.89060004.xyz
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      host: rak2d3.89060004.xyz
+  cipher: auto
+  uuid: 350e2b01-d410-44a6-90ba-6483f1062972
+  alterId: 0
+- name: 🇭🇰HK_8 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 46.254.92.29
+  type: vless
+  network: ws
+  udp: true
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: https://t.me/xyfqzy ⚡_18
+  port: 443
+  server: 104.21.94.69
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: jjJjjjjjjjjj.000890604.xYZ
+  skip-cert-verify: true
+  ws-opts:
+    path: /Ryxyg63Pk7cFSnZBROjL3Q5vTymr
+    headers:
+      host: jjjjjjjjjjjj.000890604.xyz
+  alpn:
+  - http/1.1
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  client-fingerprint: chrome
+- name: 🇭🇰HK_7 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 91.193.58.94
+  type: vless
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram@WangCai2/?ed
+    headers:
+      host: hk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: ❓Other_32 | ⬇️ 1.2MB/s
+  port: 8880
+  server: 185.193.29.156
+  type: vless
+  network: ws
+  udp: true
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      host: kjgx.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇰🇷KR_3 | ⬇️ 2.9MB/s
+  port: 443
+  server: 104.16.248.63
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: VNGsUppLY.IP-ddnS.COm
+  skip-cert-verify: true
+  ws-opts:
+    path: /ycqlKbi40f2kVjZS?ed=2560
+    headers:
+      host: vngsupply.ip-ddns.com
+  alpn:
+  - http/1.1
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  client-fingerprint: chrome
+- name: 🇺🇸US_23 | ⬇️ 1.6MB/s
+  port: 443
+  server: 104.21.13.36
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: XcdvfGBnHU7.0890604.XyZ
+  skip-cert-verify: true
+  ws-opts:
+    path: /xZjr7v1DqrYyamxeTh7sLJtI1
+    headers:
+      host: xcdvfgbnhu7.0890604.xyz
+  alpn:
+  - http/1.1
+  uuid: a7c9c017-db10-4d15-b01b-0634db498b57
+  client-fingerprint: chrome
+- name: 🇯🇵JP_2 | ⬇️ 1.8MB/s
+  port: 8880
+  server: 185.251.83.63
+  type: vless
+  network: ws
+  udp: true
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: jp.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇸🇬SG_4 | ⬇️ 1.4MB/s
+  port: 8880
+  server: 199.34.230.63
+  type: vless
+  network: ws
+  udp: true
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: sg.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: 🇺🇸US_27 | ⬇️ 1.7MB/s
+  port: 443
+  server: 104.21.94.69
+  type: vless
+  network: ws
+  tls: true
+  udp: true
+  servername: dDDDvvbHY7.000890604.xYz
+  skip-cert-verify: true
+  ws-opts:
+    path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+    headers:
+      host: ddddvvbhy7.000890604.xyz
+  alpn:
+  - http/1.1
+  uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+  client-fingerprint: chrome
+- name: ❓Other_33 | ⬇️ 1.8MB/s
+  port: 8880
+  server: 185.207.199.247
+  type: vless
+  network: ws
+  udp: true
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      host: ex.sue.x10.mx
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+- name: 🇺🇸US_48 | ⬇️ 1.5MB/s
+  port: 8880
+  server: 91.193.58.114
+  type: vless
+  network: ws
+  udp: true
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  ws-opts:
+    path: /Telegram
+    headers:
+      host: sk.laoyoutiao.link
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+- name: '[VMess] 🇫🇷 法国 - 巴黎 - 1'
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+    headers:
+      Host: AZERB.NET
+  udp: true
+- name: '[VMess] 🇮🇳 印度 - 班加羅爾 - 1'
+  server: board-01.ddnskunlun.com
+  port: 11929
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇮🇳 印度 - 班加羅爾 - 2'
+  server: board-04.ddnskunlun.com
+  port: 11973
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[VMess] 🇯🇵 日本 - Chiyoda City - 2'
+  server: 103.181.164.145
+  port: 51556
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '[SS] 🇯🇵 日本 - 东京 - 1'
+  server: 185.141.219.24
+  port: 30312
+  type: ss
+  cipher: aes-256-gcm
+  password: 99394cfebe6c0906
+  udp: true
+- name: '[SS] 🇱🇹 立陶宛 - 维尔纽斯 - 1'
+  server: 195.66.25.220
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yhrHMDgZ2egKftvrecvkpUPqpUTyac7q
+  udp: true
+- name: '[Trojan] 🇳🇱 荷兰 - 阿姆斯特丹 - 1'
+  server: nl-4.tr202513.com
+  port: 443
+  type: trojan
+  password: s7R5MgmN6UrFWjxwYh
+  sni: nl-4.tr202513.com
+  skip-cert-verify: true
+  udp: true
+- name: '[Trojan] 🇵🇱 波兰 - 华沙 - 1'
+  server: just-alpaca.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  sni: just-alpaca.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: '[SS] 🇺🇸 美国 - Somers - 1'
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  udp: true
+- name: '[VMess] 🇺🇸 美国 - 洛杉矶 - 2'
+  server: m.cnmjin.net
+  port: 16648
+  type: vmess
+  uuid: fcad95ed-9d9c-4621-9b1a-21fd5dde3f83
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: m.cnmjin.net
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 1'
+  server: 103.186.154.163
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 2'
+  server: 103.186.155.128
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 3'
+  server: 103.186.155.146
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 4'
+  server: 103.186.155.140
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 5'
+  server: 103.186.154.196
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 6'
+  server: 103.186.155.218
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 7'
+  server: 103.186.155.39
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 8'
+  server: 103.186.155.130
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: '[SS] 🇻🇳 越南 - Hải Dương - 9'
+  server: 103.186.155.33
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
